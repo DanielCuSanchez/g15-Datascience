@@ -2,7 +2,7 @@
 my_list = ["Delia","Francisco", "Victor", "Maria", "Maria", "Luis"]
 
 
-new_list = [ element for element in my_list if element == "Maria"]
+new_list = [ element for element in my_list if element == "Maria"] #Lists comprehension
 
 
 print(my_list)
